@@ -30,21 +30,22 @@
 
 ###  Clone or Extract Project
 
-###  Run Backend
-  -cd backend
-  -source venv/Scripts/activate   # Git Bash/Windows
-  -pip install -r requirements.txt
-  -uvicorn main:app --reload
+###  Run Backend:
+```bash
+cd backend
+source venv/Scripts/activate   
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
 
-###  Run System Utility
-  -cd system-monitor
-  -source venv/Scripts/activate
-  -pip install -r requirements.txt
-  -python monitor.py
-
+###  Run System Utility:
+```bash
+cd system-monitor
+source venv/Scripts/activate
+pip install -r requirements.txt
+python monitor.py
+```
 
 ### View Machine Data  : http://localhost:8000/machines
 
 
-unzip CrossPlatformSystemUtility.zip
-cd CrossPlatformSystemUtility
