@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** Python 3
 - **Backend:** FastAPI, Uvicorn
 - **Frontend:** HTML, CSS, JavaScript
@@ -28,19 +28,19 @@
 
 ## 🚀 How to Run
 
-### 1️ Clone or Extract Project
+###  Clone or Extract Project
 
 ###  Run Backend
-  cd backend
-  source venv/Scripts/activate   # Git Bash/Windows
-  pip install -r requirements.txt
-  uvicorn main:app --reload
+  -cd backend
+  -source venv/Scripts/activate   # Git Bash/Windows
+  -pip install -r requirements.txt
+  -uvicorn main:app --reload
 
 ###  Run System Utility
-  cd system-monitor
-  source venv/Scripts/activate
-  pip install -r requirements.txt
-  python monitor.py
+  -cd system-monitor
+  -source venv/Scripts/activate
+  -pip install -r requirements.txt
+  -python monitor.py
 
 
 ### View Machine Data  : http://localhost:8000/machines
